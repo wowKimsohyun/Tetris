@@ -586,7 +586,6 @@ int main ()
     initGame(&info);
     int IDNext = typeofTetromino();
     clock_t Start,End;
-//    srand(time(0));
     drawboard();
     do
     {
