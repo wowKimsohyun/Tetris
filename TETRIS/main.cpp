@@ -337,8 +337,9 @@ void turnLeft (Tetromino* pTetromino)
                     return;
             }
         }
-        pTetromino->jBoard-=1;
+
     }
+    pTetromino->jBoard-=1;
 }
 
 void turnRight (Tetromino* pTetromino)
@@ -354,8 +355,8 @@ void turnRight (Tetromino* pTetromino)
                 return;
             }
         }
-        pTetromino->jBoard+=1;
     }
+    pTetromino->jBoard+=1;
 }
 
 int goDown (Tetromino* pTetromino) // 0 can't down ; 1 go down;
