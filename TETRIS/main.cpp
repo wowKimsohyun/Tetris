@@ -337,7 +337,6 @@ void turnLeft (Tetromino* pTetromino)
                     return;
             }
         }
-
     }
     pTetromino->jBoard-=1;
 }
@@ -635,7 +634,9 @@ int main ()
             displayBoard();
         }
     }while(1);
-    clrscr();
+    gotoxy(40,10);
     cout << "Game Over!!!";
+    gotoxy(40,11);
+    cout << "Your Score: " << info.score;
     getch();
 }
