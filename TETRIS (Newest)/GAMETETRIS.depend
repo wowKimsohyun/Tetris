@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1526029915 source:e:\new folder (3)\gametetris\main.cpp
+	<iostream>
+	<conio.h>
+	<fstream>
+	<time.h>
+	"console.h"
+
+1526029461 source:e:\new folder (3)\gametetris\console.cpp
+	<windows.h>
+	<iostream>
+	<stdio.h>
+	"console.h"
+
+1526028878 e:\new folder (3)\gametetris\console.h
+
